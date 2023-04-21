@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <main class="main-wrapper">
+      <section class="flex-container">
+        <picture class="flex-items upper-img">
+          <img
+            src="images/image-equilibrium.jpg"
+            alt="cube image"
+            class="top-image"
+          />
+          <div class="overlay"><img src="images/icon-view.svg" alt="" /></div>
+        </picture>
+        <div class="flex-items body-txt">
+          <h1 class="heading">Equilibrium #3429</h1>
+
+          <p class="paragraph">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+
+          <article class="flex-row-item">
+            <div class="item-one left-item">
+              <img
+                src="images/icon-ethereum.svg"
+                alt=""
+                class="ethereum-image"
+              />
+              <div class="eth-txt">0.041 ETH</div>
+            </div>
+            <div class="item-one right-item">
+              <img src="images/icon-clock.svg" alt="" class="clock-image" />
+              <div class="clock-txt">3 days left</div>
+            </div>
+          </article>
+
+          <div class="bottom-item">
+            <img src="images/image-avatar.png" alt="" />
+            <div class="owner"><span> Creation of</span> Jules Wyvern</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">0x_Ryker</a>.
+    </div>
+  </body>
+</html>
